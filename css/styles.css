@@ -1,0 +1,142 @@
+@import url(http://fonts.googleapis.com/css?family=Exo+2:400,200,600,800);
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    margin: 0px;
+    position: relative;
+}
+.header{
+    background: linear-gradient(0deg, rgba(1,0,4,1) 0%, rgba(14,39,60,1) 45%, rgba(14,105,131,1) 100%);;
+    padding-top: 25px;
+}
+
+.containerall{
+    margin-left: 200px; 
+    margin-right: 200px; 
+    padding-bottom: 100px;
+}
+
+.mynav__container__navlist{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px 150px;
+    grid-gap: 10px;
+}
+.mynav__container__navlist__navitem__item{
+    color: white;
+    text-decoration: none;
+}
+.mynav__container__navlist__navitem_img{
+    width: 20px;
+    height: 20px;
+}
+
+
+.gallery{
+    text-align: center;
+}
+
+.info__description__img{
+    float: right;
+    margin: 10px;
+    width: 450px;
+}
+.info__description__img--left{
+    float: left;
+}
+
+.socialmedia{
+    background-color: #292626;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.socialmedia__container{
+    display: grid;
+    list-style: none;
+    justify-content: center;
+    grid-template-columns: 150px 150px 150px;
+    grid-gap: 10px;
+    
+}
+.socialmedia__container_img{
+    border-radius:150px;
+}
+
+.bodyroom__img{
+    width: 1100px;
+}
+
+.bodydining_img{
+    text-align: center;
+}
+
+.form__button{
+    margin: 10px;
+    background-color: rgb(14, 103, 128);
+    width: 120px;
+    height: 40px;
+    color: white;
+}
+
+.listservice__item{
+    font-size: 12px;
+    color: rgba(255, 25, 25, 0.562);
+    display: inline-block;
+    list-style: none;
+    border: 2px solid rgba(255, 25, 25, 0.562);
+    margin: 10px;
+}
+.listservice__item--green{
+    background-color: rgb(144, 221, 148);
+}
+
+.listacce__item{
+    font-size: 12px;
+    color: rgba(85, 85, 85, 0.562);
+    display: inline-block;
+    list-style: none;
+    border: 2px solid rgba(85, 85, 85, 0.562);
+    margin: 10px;
+}
+.listacce__item--green{
+    background-color: rgb(144, 221, 148);
+}
+
+.arrivallist{
+    list-style:none ;
+}
+.arrivallist__item{
+    background-color: darkgrey;
+    border: 2px solid black;
+    margin: 10px;
+}
+.arrivallist__span{
+    font: 0/0 a;
+    text-shadow: transparent;
+    color: transparent;
+    text-decoration: none;
+}
+
+#finalpage{
+    margin-bottom: 218px;
+}
+#infodivide{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-gap:   50px;
+}
+
+
+p{
+    color: rgba(85, 85, 85, 0.562);
+}
+
+span{
+    font-size: 30px;
+}
+
+strong{
+    color: black;
+}
